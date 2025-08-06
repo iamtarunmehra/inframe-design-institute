@@ -1,8 +1,13 @@
-import React from 'react'
-import { FaChevronDown } from "react-icons/fa";
+'use client'
+import React, { useState } from 'react'
+import { FaAngleRight, FaChevronDown, FaClosedCaptioning } from "react-icons/fa";
 import { HiOutlineBars3CenterLeft } from "react-icons/hi2";
+import { MdClose } from 'react-icons/md';
 
 export default function Header() {
+
+    const [mobileMenu, setMobileMenu] = useState(false)
+
     return (
         <header className='sticky top-0 z-[100] bg-white' >
 
@@ -27,10 +32,25 @@ export default function Header() {
 
             {/* header for mobile */}
             <div className='lg:hidden block'>
-                <div className='flex items-center gap-0 py-[20px] px-2 shadow-xl'>
-                    <button className='text-[30px]'><HiOutlineBars3CenterLeft /></button>
-                    <img className='w-[180px] object-cover' src="https://www.inframedesigninstitute.com/assets/images/logo4.png" alt="" />
+                <div className='flex items-center justify-between gap-0 py-[25px] px-2 shadow-xl'>
+                    <div className='flex items-center'>
+                        <button onClick={() => setMobileMenu(!mobileMenu)} className='text-[30px]'><HiOutlineBars3CenterLeft /></button>
+                        <img className='w-[180px] object-cover' src="https://www.inframedesigninstitute.com/assets/images/logo4.png" alt="" />
+                    </div>
                     <button className='bg-blue-600 hover:bg-blue-500 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[5px] text-white text-[18px]'>Login</button>
+                </div>
+                <div className={`${mobileMenu ? 'left-0' : '-left-[100%]'} duration-300 fixed top-0 w-[100%] h-[100vh] bg-white px-3 py-8`}>
+                    <div className='flex justify-between'>
+                        <img className='w-[180px] object-cover' src="https://www.inframedesigninstitute.com/assets/images/logo4.png" alt="" />
+                        <button onClick={() => setMobileMenu(false)} className='text-[25px] '><MdClose /></button>
+                    </div>
+                    <ul className='px-3'>
+                        <li className='my-[35px] text-[18px] flex items-center gap-1 justify-between'>All Courses <FaAngleRight /></li>
+                        <li className='my-[35px] text-[18px]'>Online Courses</li>
+                        <li className='my-[35px] text-[18px]'>Offline Courses</li>
+                        <li className='my-[35px] text-[18px]'>Study Materials</li>
+                        <li className='my-[35px] text-[18px]'>Test Series</li>
+                    </ul>
                 </div>
             </div>
 

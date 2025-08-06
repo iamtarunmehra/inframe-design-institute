@@ -23,13 +23,13 @@ export default function BannerSlider() {
         <div className='w-[100%] pb-10 overflow-hidden'>
             <Slider {...settings}>
                 <div>
-                    <img className='w-[100%] h-[70vh]' src="https://www.inframedesigninstitute.com/images/homesliderpic/1732701125MOCK_TEST01.jpg" alt="" />
+                    <img className='w-[100%] lg:h-[70vh] ' src="https://www.inframedesigninstitute.com/images/homesliderpic/1732701125MOCK_TEST01.jpg" alt="" />
                 </div>
                 <div>
-                    <img className='w-[100%] h-[70vh]' src="https://www.inframedesigninstitute.com/images/homesliderpic/168845617729-June-Book.jpg" alt="" />
+                    <img className='w-[100%] lg:h-[70vh] ' src="https://www.inframedesigninstitute.com/images/homesliderpic/168845617729-June-Book.jpg" alt="" />
                 </div>
                 <div>
-                    <img className='w-[100%] h-[70vh]' src="https://www.inframedesigninstitute.com/images/homesliderpic/1732702600GET_COURSE.jpg" alt="" />
+                    <img className='w-[100%] lg:h-[70vh] ' src="https://www.inframedesigninstitute.com/images/homesliderpic/1732702600GET_COURSE.jpg" alt="" />
                 </div>
             </Slider>
             <button onClick={() => setcontactModel(!contactModel)} className={`${contactModel ? 'rotate-180 ' : 'rotate-0'} fixed cursor-pointer top-[88%] right-[25px] z-[110] text-[28px] bg-blue-500 text-white rounded-full lg:p-4 p-3 transition-all ease-initial duration-400`}>{contactModel ? <IoMdClose /> : <FaPhoneAlt />}
