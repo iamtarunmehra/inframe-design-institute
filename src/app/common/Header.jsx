@@ -125,7 +125,7 @@ export default function Header() {
                                 </div>
                             </li>
                             <li className='uppercase text-[16px] font-semibold hover:bg-blue-50 px-[5px] py-[30px] duration-300 cursor-pointer text-gray-500 group'>Test Series
-                                <div className='invisible opacity-0 group-hover:opacity-[1] scale-[0.9] group-hover:scale-[1] origin-top transition-all duration-300 ease-in-out group-hover:visible absolute top-[100%] left-1/2 -translate-x-1/2 w-[700px] h-auto bg-white shadow-2xl border-[1px] border-gray-300 grid grid-cols-3 gap-10 p-5 rounded-b-[35px]'>
+                                <div className='invisible opacity-0 group-hover:opacity-[1] scale-[0.9] group-hover:scale-[1] origin-top transition-all duration-300 ease-in-out group-hover:visible absolute top-[100%] left-1/2 -translate-x-1/2 w-[900px] h-auto bg-white shadow-2xl border-[1px] border-gray-300 grid grid-cols-3 gap-10 p-5 rounded-b-[35px]'>
                                     <ul>
                                         <li className='text-[22px] text-blue-600 uppercase mb-2'>UG Exams</li>
                                         <li className='my-[10px] hover:text-blue-500 duration-200 text-gray-900'>Design UG Exam</li>
@@ -171,9 +171,9 @@ export default function Header() {
                     <button className='bg-blue-600 hover:bg-blue-500 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[5px] text-white text-[18px]'>Login</button>
                 </div>
                 <div className={`${mobileMenu ? 'left-0' : '-left-[100%]'} duration-300 fixed top-0 w-[100%] h-[100vh] bg-white px-3 py-8`}>
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between pr-[6px]'>
                         <img className='w-[200px] object-cover' src="https://www.inframedesigninstitute.com/assets/images/logo4.png" alt="" />
-                        <button onClick={() => setMobileMenu(false)} className='text-[25px] '><MdClose /></button>
+                        <button onClick={() => setMobileMenu(false)} className='text-[30px] '><MdClose /></button>
                     </div>
                     <ul className='px-3'>
                         <li className='my-[35px] text-[22px] border-b-[1px] border-gray-400 pb-2 flex items-center gap-1 justify-between'>All Courses <FaAngleRight /></li>
