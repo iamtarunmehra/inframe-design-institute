@@ -21,7 +21,7 @@ export default function BookaSession() {
                     </div>
                 </div>
                 <form className="w-full bg-white p-8 rounded-[20px] shadow-2xl shadow-gray-400 space-y-5">
-                    <h2 className="text-2xl font-semibold text-gray-800 mb-4 uppercase">Fill the details</h2>
+                    <h2 className="text-2xl font-semibold text-gray-800 mb-4 capitalize">Please Fill All the details</h2>
 
                     <div>
                         <label className="block text-gray-700 font-medium mb-1">Name*</label>

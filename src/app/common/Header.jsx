@@ -156,7 +156,7 @@ export default function Header() {
                                 </div>
                             </li>
                         </ul>
-                        <button className='bg-blue-600 hover:bg-blue-500 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[10px] text-white  text-[18px]'>Login / Register</button>
+                        <button onClick={() => setLoginForm(true)} className='bg-blue-600 hover:bg-blue-500 duration-300 cursor-pointer px-[25px] rounded-[10px] py-[10px] text-white  text-[18px]'>Login / Register</button>
                     </div>
                 </div>
             </div>
