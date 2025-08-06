@@ -48,7 +48,7 @@ export default function Facility() {
     }, []);
 
     return (
-        <div className='w-full bg-gray-50'>
+        <div className='w-full bg-gray-100 lg:p-0 p-3'>
             <div className="max-w-[1320px] lg:py-[60px] py-[30px] mx-auto grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
                 {highlights.map((item, index) => (
                     <div
