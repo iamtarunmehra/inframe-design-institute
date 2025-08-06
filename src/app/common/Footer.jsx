@@ -1,19 +1,15 @@
 import React from 'react'
-import { FaFacebook, FaPhoneAlt } from "react-icons/fa";
-import { RiInstagramFill } from "react-icons/ri";
-import { PiYoutubeLogoFill } from "react-icons/pi";
-import { FaLinkedin, FaLocationDot } from "react-icons/fa6";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { BsTelegram } from "react-icons/bs";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from 'react-icons/md';
 
 export default function Footer() {
   return (
-    <div className='w-full bg-gray-300 lg:mt-[60px] mt-[30px]'>
-      <div className="max-w-[1320px] mx-auto grid grid-cols-[40%_auto] gap-10 py-[30px]">
+    <div className='w-full bg-gray-200 lg:mt-[60px] mt-[30px]'>
+      <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 grid-cols-1 p-3 lg:gap-15 gap-5 py-[30px]">
         <div>
           <img className='w-[250px] object-cover' src="https://www.inframedesigninstitute.com/assets/images/logo4.png" alt="" />
-          <p className='my-[25px] text-gray-900 text-justify'>InFrame Design Institute (IDI), established in 2013, is a premier design education center located in Jodhpur, Rajasthan. Founded by a group of artists, IDI offers comprehensive coaching for various design entrance examinations, including NIFT, NID, and UCEED.</p>
+          <p className='my-[25px] text-gray-900 '>InFrame Design Institute (IDI), established in 2013, is a premier design education center located in Jodhpur, Rajasthan. Founded by a group of artists, IDI offers comprehensive coaching for various design entrance examinations, including NIFT, NID, and UCEED.</p>
           <div className='flex gap-5 my-[25px]'>
             <img className='w-[140px]' src="https://www.pw.live/_next/static/media/google-play-badge.171251c3.webp" alt="" />
             <img className='w-[140px]' src="https://www.pw.live/_next/static/media/apple-store-badge.acb101ce.webp" alt="" />
@@ -75,14 +71,56 @@ export default function Footer() {
         <div>
           <ul>
             <li className='text-[23px] text-blue-600'>Contact Us</li>
-            <li className='my-[15px] text-gray-800 flex items-center gap-2'><FaLocationDot className='text-[20px]' /> B-09 Pal link Road Behind Kamla Nagar Hospital, Marudhar Nagar Jodhpur(Raj) 342008</li>
-            <li className='my-[15px] text-gray-800 flex items-center gap-2'>
-              <FaPhoneAlt className='text-[20px]' /> (+91) 9649-9649-37 ,  (+91) 9649-9649-70
+            <li className='my-[15px] text-gray-800 grid grid-cols-[5%_auto] items-center gap-5'><FaLocationDot className='text-[18px]' /> B-09 Pal link Road Behind Kamla Nagar Hospital, Marudhar Nagar Jodhpur(Raj) 342008</li>
+            <li className='my-[15px] text-gray-800 grid grid-cols-[5%_auto] items-center gap-5'>
+              <FaPhoneAlt className='text-[18px]' /> (+91) 9649-9649-37 ,  (+91) 9649-9649-70
             </li>
-            <li className='my-[15px] text-gray-800 flex items-center gap-2'> <MdEmail className='text-[20px]' /> info@inframedesigninstitute.com</li>
+            <li className='my-[15px] text-gray-800 grid grid-cols-[5%_auto] items-center gap-5'> <MdEmail className='text-[18px]' /> info@inframedesigninstitute.com</li>
           </ul>
         </div>
+
+        <ul>
+          <li className='text-[22px] text-blue-600 mb-2'>Quick Link</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>IDI Institute</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Alliances</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Top Colleges</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Student Work</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Faculty Work</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Testimonial</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Latest News</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Gallery</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Inframe Video</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Login</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Online Mock Test</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Terms & Conditions</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Privacy Policy</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Delivery and Shipping Policy</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Refund and Cancellation</li>
+        </ul>
+
+        <ul>
+          <li className='text-[22px] text-blue-600 mb-2'>Student's Zone</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>How to Register</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Career in Design @ abroad</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Career After 12th</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Interview Tips</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Design Aptitude Test</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>How to Crack NIFT</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>How to Crack NID</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>How to Crack NATA</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>How to Crack U-CEED</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>How to Crack JEE-MAINS B.arch</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Top Colleges of Architecture</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Top Colleges of Design</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Top Colleges of Fine Art</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Top Colleges of Fashion design</li>
+          <li className='my-[5px] text-gray-800 cursor-pointer'>Placement in Design</li>
+        </ul>
+
+
       </div>
+
+      <p className='bg-blue-950 text-[14px] text-center py-[20px] text-white'>© Copyrights 2013 - 2025 IDI Jodhpur. All Rights Reserved</p>
     </div>
   )
 }

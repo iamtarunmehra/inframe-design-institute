@@ -14,7 +14,7 @@ export default function StudyMaterials() {
                 <div className='grid lg:grid-cols-3 lg:h-[400px] h-auto sm:grid-cols-2 grid-cols-1 gap-10 '>
                     {data.map((item, index) => {
                         return (
-                            <div key={index} className='w-[100%] hover:border-b-10 border-blue-600 lg:h-[100%] cursor-pointer group hover:-mt-[1px] overflow-hidden transition-all ease-in-out duration-300 rounded-[25px] lg:my-[50px] bg-gray-200 p-8'>
+                            <div key={index} className='w-[100%] hover:border-b-10 border-blue-600 lg:h-[100%] cursor-pointer group hover:translate-y-[-10px] overflow-hidden transition-all ease-in-out duration-300 rounded-[25px] lg:my-[50px] hover:bg-blue-100 bg-gray-200 p-8'>
                                 <h3 className='text-[25px]'>{item.heading}</h3>
                                 <p className='my-[15px]'>{item.description}</p>
                                 <img className='[330px] group-hover:scale-[1.1] object-contain duration-300' src={item.src} alt="" />

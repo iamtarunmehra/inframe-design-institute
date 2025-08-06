@@ -54,7 +54,7 @@ export default function Facility() {
                     <div
                         key={index}
                         ref={(el) => (cardsRef.current[index] = el)}
-                        className="p-6 bg-white text-center rounded-b-[50px] rounded-[25px] border-[0] border-blue-600 border-b-[1px] shadow-sm flex flex-col items-center gap-5 shadow-blue-600"
+                        className="p-6 bg-white text-center rounded-b-[50px] rounded-[25px] border-blue-600 border-b-[5px] shadow- flex flex-col items-center gap-5 shadow-blue-600"
                     >
                         <p className='text-[35px] text-white rounded-full shadow-lg p-5 bg-blue-500' >{item.icon}</p>
                         <h2 className="text-[25px] font-bold text-gray-700 uppercase">
