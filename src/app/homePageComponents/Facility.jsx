@@ -49,14 +49,14 @@ export default function Facility() {
 
     return (
         <div className='w-full bg-gray-100 lg:p-0 p-3'>
-            <div className="max-w-[1320px] lg:py-[60px] py-[30px] mx-auto grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
+            <div className="max-w-[1320px] lg:py-[80px] py-[30px] mx-auto grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
                 {highlights.map((item, index) => (
                     <div
                         key={index}
                         ref={(el) => (cardsRef.current[index] = el)}
-                        className="p-6 bg-white text-center rounded-b-[50px] rounded-[25px] border-blue-600 border-b-[5px] shadow- flex flex-col items-center gap-5 shadow-blue-600"
+                        className="p-6 bg-white  text-center rounded-b-[50px] rounded-[25px] border-red-600 border-b-[5px] shadow- flex flex-col items-center gap-5 shadow-xs shadow-red-600"
                     >
-                        <p className='text-[35px] text-white rounded-full shadow-lg p-5 bg-blue-500' >{item.icon}</p>
+                        <p className='text-[35px] text-white rounded-full shadow-lg p-5 bg-red-500' >{item.icon}</p>
                         <h2 className="text-[25px] font-bold text-gray-700 uppercase">
                             {item.heading}
                         </h2>

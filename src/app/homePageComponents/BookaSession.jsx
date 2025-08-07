@@ -6,9 +6,9 @@ import { FaGraduationCap, FaUser } from "react-icons/fa";
 export default function BookaSession() {
     return (
         <div className='w-full lg:p-0 p-3'>
-            <div className="max-w-[1320px] mx-auto grid lg:grid-cols-2 gap-20 lg:py-[60px] py-[30px]">
+            <div className="max-w-[1100px] mx-auto grid lg:grid-cols-2 gap-10 lg:py-[60px] py-[30px]">
                 <div className='px-5 py-4 rounded-[35px] shadow-lg lg:py-20 shadow-gray-400'>
-                    <div className='flex items-center gap-3 lg:px-5 text-blue-600'>
+                    <div className='flex items-center gap-3 lg:px-5 text-red-600'>
                         <MdOutlineImportContacts className='text-[35px]' />
                         <h3 className=' font-semibold lg:text-[30px] text-[25px]'>Book a Counseling Session</h3>
                     </div>
@@ -28,7 +28,7 @@ export default function BookaSession() {
                         <input
                             type="text"
                             placeholder="Enter your name"
-                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-red-500 transition"
                         />
                     </div>
 
@@ -37,7 +37,7 @@ export default function BookaSession() {
                         <input
                             type="email"
                             placeholder="Enter your email"
-                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-red-500 transition"
                         />
                     </div>
 
@@ -46,14 +46,14 @@ export default function BookaSession() {
                         <input
                             type="tel"
                             placeholder="Enter your phone number"
-                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 focus:outline-none focus:ring-2 focus:ring-red-500 transition"
                         />
                     </div>
 
                     <div>
                         <label className="block text-gray-700 font-medium mb-1">Exam Type*</label>
                         <select
-                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                            className="w-full border border-gray-300 rounded-lg px-4 py-3 text-gray-800 bg-white focus:outline-none focus:ring-2 focus:ring-red-500 transition"
                         >
                             <option value="">Select Exam Type</option>
                             <option value="nift">NIFT</option>
@@ -65,7 +65,7 @@ export default function BookaSession() {
 
                     <button
                         type="submit"
-                        className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 uppercase"
+                        className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 uppercase"
                     >
                         Send
                     </button>

@@ -8,7 +8,7 @@ export default function Footer() {
     <div className='w-full bg-gray-200 lg:mt-[60px] mt-[30px]'>
       <div className="max-w-[1320px] mx-auto grid lg:grid-cols-4 grid-cols-1 p-3 lg:gap-15 gap-5 py-[30px]">
         <div>
-          <img className='w-[250px] object-cover' src="https://www.inframedesigninstitute.com/assets/images/logo4.png" alt="" />
+          <img className='w-[180px] object-cover' src="https://inframestudios.co.nz/wp-content/uploads/2025/01/Copy-of-Original-size-inframe-studios-removebg-preview-removebg-preview.png" alt="" />
           <p className='my-[25px] text-gray-900 '>InFrame Design Institute (IDI), established in 2013, is a premier design education center located in Jodhpur, Rajasthan. Founded by a group of artists, IDI offers comprehensive coaching for various design entrance examinations, including NIFT, NID, and UCEED.</p>
           <div className='flex gap-5 my-[25px]'>
             <img className='w-[140px]' src="https://www.pw.live/_next/static/media/google-play-badge.171251c3.webp" alt="" />
@@ -70,7 +70,7 @@ export default function Footer() {
 
         <div>
           <ul>
-            <li className='text-[23px] text-blue-600'>Contact Us</li>
+            <li className='text-[23px] text-red-600'>Contact Us</li>
             <li className='my-[15px] text-gray-800 grid grid-cols-[5%_auto] items-center gap-5'><FaLocationDot className='text-[18px]' /> B-09 Pal link Road Behind Kamla Nagar Hospital, Marudhar Nagar Jodhpur(Raj) 342008</li>
             <li className='my-[15px] text-gray-800 grid grid-cols-[5%_auto] items-center gap-5'>
               <FaPhoneAlt className='text-[18px]' /> (+91) 9649-9649-37 ,  (+91) 9649-9649-70
@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         <ul>
-          <li className='text-[22px] text-blue-600 mb-2'>Quick Link</li>
+          <li className='text-[22px] text-red-600 mb-2'>Quick Link</li>
           <li className='my-[5px] text-gray-800 cursor-pointer'>IDI Institute</li>
           <li className='my-[5px] text-gray-800 cursor-pointer'>Alliances</li>
           <li className='my-[5px] text-gray-800 cursor-pointer'>Top Colleges</li>
@@ -99,7 +99,7 @@ export default function Footer() {
         </ul>
 
         <ul>
-          <li className='text-[22px] text-blue-600 mb-2'>Student's Zone</li>
+          <li className='text-[22px] text-red-600 mb-2'>Student's Zone</li>
           <li className='my-[5px] text-gray-800 cursor-pointer'>How to Register</li>
           <li className='my-[5px] text-gray-800 cursor-pointer'>Career in Design @ abroad</li>
           <li className='my-[5px] text-gray-800 cursor-pointer'>Career After 12th</li>
@@ -120,7 +120,7 @@ export default function Footer() {
 
       </div>
 
-      <p className='bg-blue-950 text-[14px] text-center py-[20px] text-white'>© Copyrights 2013 - 2025 IDI Jodhpur. All Rights Reserved</p>
+      <p className='bg-red-600 text-[14px] text-center py-[20px] text-white'>© Copyrights 2013 - 2025 IDI Jodhpur. All Rights Reserved</p>
     </div>
   )
 }
